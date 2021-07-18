@@ -41,7 +41,7 @@ const NavBar = () => {
         </div>
         <div className="list-wrapper">
           <img
-            src={`${process.env.PUBLIC_URL}/cancel.png`}
+            src={`${process.env.PUBLIC_URL}/menu.png`}
             alt="Menu bars"
             style={{ opacity: !open ? 1 : 0 }}
             onClick={() => {
